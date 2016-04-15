@@ -10,9 +10,14 @@ body{
 /*formatting header*/
 header{
 	text-align: center;
-	background-color: #ECE59A;
+	background-color: #FFFBF5;
 	color: #250352;
-	height: 430px;
+	height: 480px;
+}
+h1{
+	font: 3em 'Copperplate', 'Copperplate Gothic Light', sans-serif;
+	color: #FD6E8A;
+	line-height: 120%;
 }
 
 /*formatting the topNav*/
@@ -35,9 +40,9 @@ header{
 	font: 1em 'Lucida Grande', sans-serif;
 	padding: 10px 20px;
 	margin: 10px;
-	color: #ECE59A;
-	background-color: #2C3B63;
-  border-radius: 5px;
+	color: #FFFBF5;
+	background-color: #3B4663;
+  	border-radius: 5px;
 }
 
 #topNav li a:hover{
@@ -60,6 +65,7 @@ section{
   margin: 0 auto;
   padding: 10px 40px;
   width: 700px;
+  line-height: 140%;
 }
 
 /*table formatting*/
@@ -91,7 +97,7 @@ div table tr td img{
 /*Footer fromatting*/
 footer{
 	font: 1em 'Lucida Grande', sans-serif;
-	background-color: #ECE59A;
+	background-color: #FFFBF5;
 	padding: 15px;
 	height: 50px;
 }
