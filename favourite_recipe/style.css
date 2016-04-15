@@ -4,6 +4,7 @@ body{
 	background-color: #fff;
 	text-align: center;
 	margin: 0 auto;
+  font-family: 'Lucida Grande', sans-serif;
 }
 
 /*formatting header*/
@@ -56,9 +57,35 @@ section{
   box-shadow: 2px 5px 12px #CCC0C0;
   -moz-box-shadow: 2px 5px 12px #CCC0C0;
   -webkit-box-shadow:2px 5px 12px #CCC0C0;  
-  margin: 15px;
+  margin: 0 auto;
   padding: 10px 40px;
   width: 700px;
+}
+
+/*table formatting*/
+table{
+  text-align: left; 
+  padding: 60px;
+}
+
+th{
+  font-size: 1.4em;
+}
+
+td{
+  padding: 15px;
+  font-size: 1.25em;
+  width: 300px;
+}
+
+div table tr td img{
+  float: right;
+  max-width: 150px;
+  max-height: 150px;
+  border-radius: 100%;
+  box-shadow: 2px 5px 12px #CCC0C0;
+  -moz-box-shadow: 2px 5px 12px #CCC0C0;
+  -webkit-box-shadow:2px 5px 12px #CCC0C0; 
 }
 
 /*Footer fromatting*/
@@ -70,10 +97,4 @@ footer{
 }
 footer p{
 	text-align: center;
-}
-div table tr td img{
-  border-radius: 100%;
-  box-shadow: 2px 5px 12px #CCC0C0;
-  -moz-box-shadow: 2px 5px 12px #CCC0C0;
-  -webkit-box-shadow:2px 5px 12px #CCC0C0; 
 }
