@@ -7,4 +7,7 @@ $(document).ready(function() {
         var $show = $('img');
         $show.fadeIn('slow');
     });
+  $('.change').click(function() {
+		$(this).toggleClass("onIt");
+	});
 });
