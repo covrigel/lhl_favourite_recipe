@@ -1,5 +1,10 @@
 $(document).ready(function() {
-  $('checkbox').click(function(){
-  	$('li').hide();
-  })
+  $('.hide').click(function() {
+        var $hide = $('img');
+        $hide.fadeOut('slow');
+    });
+  $('.show').click(function() {
+        var $show = $('img');
+        $show.fadeIn('slow');
+    });
 });
