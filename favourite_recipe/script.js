@@ -10,5 +10,7 @@ $(document).ready(function() {
   $('.change').click(function() {
 		$(this).toggleClass("onIt");
 	});
+  $('.strike').click(function() {
+    $(this).toggleClass("lineThrough");
+  });
 });
-

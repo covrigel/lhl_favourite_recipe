@@ -5,6 +5,7 @@ body{
 	text-align: center;
 	margin: 0 auto;
   font-family: 'Lucida Grande', sans-serif;
+  cursor: default;
 }
 
 /*formatting header*/
@@ -135,4 +136,7 @@ button{
 .onIt{
   font-weight: bolder;
   color: black;
+}
+.lineThrough{
+  text-decoration: line-through;
 }
